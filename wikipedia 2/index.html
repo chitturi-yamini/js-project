@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <h1>Wikipedia</h1>
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/657px-Wikipedia-logo-v2.svg.png" alt="Wikipedia Logo" />
+            <span id="theme-toggler">Light</span>
+        </div>
+  
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Enter search term" />
+            <button type="submit">Search</button>
+        </form>
+  
+        <div id="search-results"></div>
+    </div>
+
+    <script src="wiki.js"></script>
+</body>
+</html>
